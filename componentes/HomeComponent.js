@@ -4,6 +4,8 @@ import { Card } from '@rneui/themed';
 import { EXCURSIONES } from '../comun/excursiones';
 import { CABECERAS } from '../comun/cabeceras';
 import { ACTIVIDADES } from '../comun/actividades';
+import { CONTACTO } from '../comun/contacto';
+
 
 function RenderItem(props) {
     
@@ -33,7 +35,8 @@ class Home extends Component {
         this.state = {
           excursiones: EXCURSIONES,
           cabeceras: CABECERAS,
-          actividades: ACTIVIDADES
+          actividades: ACTIVIDADES,
+          contacto: CONTACTO
         };
     }
 
@@ -44,6 +47,7 @@ class Home extends Component {
                 <RenderItem item={this.state.cabeceras.filter((cabecera) => cabecera.destacado)[0]} />
                 <RenderItem item={this.state.excursiones.filter((excursion) => excursion.destacado)[0]} />
                 <RenderItem item={this.state.actividades.filter((actividad) => actividad.destacado)[0]} />
+                <RenderItem item={this.state.contacto.filter((contacto) => contacto.destacado)[0]} />
             </ScrollView>
         );
     }
