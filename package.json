@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@react-navigation/drawer": "^7.3.9",
     "@react-navigation/native": "^7.1.6",
     "@react-navigation/native-stack": "^7.3.10",
@@ -22,6 +23,12 @@
     "react-native-screens": "~4.4.0",
     "react-native-gesture-handler": "~2.20.2",
     "react-native-reanimated": "~3.16.1"
+=======
+    "expo": "~53.0.7",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.2"
+>>>>>>> 70bce62 (Initial commit)
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

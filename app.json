@@ -19,7 +19,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+<<<<<<< HEAD
       }
+=======
+      },
+      "edgeToEdgeEnabled": true
+>>>>>>> 70bce62 (Initial commit)
     },
     "web": {
       "favicon": "./assets/favicon.png"
