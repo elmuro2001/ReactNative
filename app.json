@@ -20,11 +20,15 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
 <<<<<<< HEAD
+<<<<<<< HEAD
       }
 =======
       },
       "edgeToEdgeEnabled": true
 >>>>>>> 70bce62 (Initial commit)
+=======
+      }
+>>>>>>> ca0ce5f (Botones o Iconos)
     },
     "web": {
       "favicon": "./assets/favicon.png"
